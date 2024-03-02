@@ -1,0 +1,30 @@
+.g1{
+    display: flex;
+    flex-direction: row;
+}
+.g2{
+    display: flex;
+    flex-direction: row;
+}
+.g3{
+    display: flex;
+    flex-direction: row;
+}
+.g4{
+    display: flex;
+    flex-direction: row;
+}
+.page{
+    width: 85%;
+    margin-left: 8px;
+    margin-bottom: 10%;
+
+}
+.image-container{
+    height: 300px;
+    width: 700px;
+}
+.image{
+    height: 300px;
+    width: 700px;
+}
