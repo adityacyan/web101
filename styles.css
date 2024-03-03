@@ -79,18 +79,20 @@ p {
     transition: transform 1.2s;
     transform: rotateY(180deg);
 }
-.collaborate{
+
+.collaborate {
     width: fit-content;
 
 }
+
 .collaborate:hover {
     cursor: pointer;
-    transform: scale(1.02);
+    transform: scale(1.05);
     color: aliceblue;
     text-decoration-line: underline;
     transition: transform 5s;
 
-    opacity: 70%;
+    opacity: 90%;
 }
 
 .darkmodebutton {
@@ -125,9 +127,11 @@ body {
     background-color: #5784ba;
     transition: .5s;
 }
-.t1{
+
+.t1 {
     width: fit-content;
 }
+
 .t1:hover {
     cursor: pointer;
     transform: scale(1.02);
@@ -135,9 +139,11 @@ body {
     color: aliceblue;
     transition: transform .5s
 }
-.linker{
+
+.linker {
     width: fit-content;
 }
+
 .linker:hover {
     cursor: pointer;
     opacity: 85%;
@@ -145,3 +151,5 @@ body {
     text-decoration-line: underline;
     transition: transform .4s
 }
+
+/* colors by shriya :) */
