@@ -64,3 +64,39 @@ p{
     transition: transform 1.2s;
     transform: rotateY(180deg);
 }
+
+.collaborate:hover{
+   text-decoration-line: underline;
+    transition: transform 1.5s;
+    cursor:pointer;
+
+
+}
+.darkmodebutton{
+    background-color: #212529;
+    color: whitesmoke;
+    margin: 5px;
+    border-color: white;
+    border-style: double;
+    padding: 20px;
+}
+.darkmode:hover{
+    text-decoration-line: underline;
+    transition: transform .2s;
+    cursor:pointer;
+    background-color: #212529;
+    color: whitesmoke;
+    margin: 5px;
+    border-color: white;
+    border-style: double;
+    padding: 20px;
+    transform: scale(1.2);
+}
+
+.darkmodebody{
+    background-color: #212529;
+    color: whitesmoke;
+}
+body{
+    background-color: #218B82;
+}
