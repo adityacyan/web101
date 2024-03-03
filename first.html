@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <script>
+        function myScript() {
+            var element = document.getElementById("bodyx");
+            element.classList.toggle("darkmodebody");
+        }
+    </script>
     <link href="styles.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
@@ -8,19 +14,21 @@
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Document</title>
 </head>
-<body>
+<body id="bodyx">
 <div class="page">
-    <div><h2> Lets collaborate</h2></div>
+    <div class="collaborate"><h2> Lets collaborate</h2></div>
     <div class="g1">
         <div class="info">
             <div class="t1"><h2>AI + RPA is what we do</h2></div>
             <div class="t1about"><h3> Future-Proof your business. Drive efficiency, profitability and deliver on
                 customer experience </h3></div>
+            <div class="linker">
             <div class="t1ext"><p>AI + RPA Automation</p>  <img
                     alt="arrow"
                     class="pointer"
                     src="https://lets-collab-rust.vercel.app/static/media/pointer.d3b0698f3ee3843a2a593e5683680e53.svg">
             </div>
+               </div>
         </div>
         <div class="image-container"><img
                 alt="robo" class="image"
@@ -30,11 +38,13 @@
         <div class="info">
             <div class="t1"><h2> Make Bolder Choices</h2></div>
             <div class="t1about"><h3>Digital focused strategies to realize market-changing ideas</h3></div>
+            <div class="linker">
             <div class="t1ext"><p>Build Better Apps</p>  <img
                     alt="arrow"
                     class="pointer"
                     src="https://lets-collab-rust.vercel.app/static/media/pointer.d3b0698f3ee3843a2a593e5683680e53.svg">
             </div>
+                </div>
         </div>
         <div class="image-container"><img
                 alt="ppl"
@@ -47,11 +57,13 @@
 
             <div class="t1about"><h3>Create higher quality software, deliver on customer expectations and business
                 goals</h3></div>
+            <div class="linker">
             <div class="t1ext"><p>DevOps</p>  <img
                     alt="arrow"
                     class="pointer"
                     src="https://lets-collab-rust.vercel.app/static/media/pointer.d3b0698f3ee3843a2a593e5683680e53.svg">
             </div>
+               </div>
         </div>
         <div class="image-container"><img
                 alt="workplace"
@@ -63,17 +75,19 @@
             <div class="t1"><h2>Embrace Cloud</h2></div>
 
             <div class="t1about"><h3>With Cloud-First accelerate innovation and optimize performance</h3></div>
+           <div class="linker">
             <div class="t1ext"><p>Cloud Services</p> <img
                     alt="arrow"
                     class="pointer"
                     src="https://lets-collab-rust.vercel.app/static/media/pointer.d3b0698f3ee3843a2a593e5683680e53.svg">
             </div>
+               </div>
         </div>
         <div class="image-container"><img
                 alt="phone" class="image"
                 src="https://lets-collab-rust.vercel.app/static/media/s4-image.e02e593de8014f43f419.jpg"></div>
     </div>
-    <button class="darkness"> Toggle Night Mode</button>
+    <button class="darkmodebutton" onclick="myScript()"> Toggle Night Mode</button>
 </div>
 <!-- adrishya 23:45 :) -->
 
