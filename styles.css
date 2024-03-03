@@ -1,78 +1,95 @@
-.g1{
+.g1 {
     display: flex;
     flex-direction: row;
 }
-.g2{
+
+.g2 {
     display: flex;
     flex-direction: row;
 }
-.g3{
+
+.g3 {
     display: flex;
     flex-direction: row;
 }
-.g4{
+
+.g4 {
     display: flex;
     flex-direction: row;
 }
-.t1ext{
+
+.t1ext {
+    font-size: 115%;
     display: flex;
     flex-direction: row;
 }
-.page{
+
+.page {
     width: 85%;
-    margin-left:50px;
+    margin-left: 50px;
 
     margin-bottom: 10%;
 
 }
-.image-container{
+
+.image-container {
     height: 300px;
     width: 500px;
     padding-bottom: 2px;
 }
-.image{
+
+.image {
 
 
     height: 300px;
     width: 500px;
 }
-.info{
+
+.info {
     padding-right: 60px;
     height: 300px;
     width: 700px;
     padding-bottom: 2px;
 }
-h2{
+
+h2 {
     font-size: 250%;
     font-weight: initial;
 }
-h3{
-    font-size: 150%;
+
+h3 {
+    font-size: 130%;
     font-weight: bold;
     padding-right: 25px;
 }
-p{
+
+p {
     font-size: 125%;
     font-weight: bolder;
 }
-.pointer{
+
+.pointer {
 
     padding-left: 25px;
     width: 25px;
 }
-.image:hover{
+
+.image:hover {
+
     transition: transform 1.2s;
     transform: rotateY(180deg);
 }
 
-.collaborate:hover{
-   text-decoration-line: underline;
-    transition: transform 1.5s;
-    cursor:pointer;
+.collaborate:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    text-decoration-line: underline;
+    transition: transform 5s;
 
-
+    opacity: 70%;
 }
-.darkmodebutton{
+
+.darkmodebutton {
     background-color: #212529;
     color: whitesmoke;
     margin: 5px;
@@ -80,10 +97,11 @@ p{
     border-style: double;
     padding: 20px;
 }
-.darkmode:hover{
+
+.darkmodebutton:hover {
     text-decoration-line: underline;
     transition: transform .2s;
-    cursor:pointer;
+    cursor: pointer;
     background-color: #212529;
     color: whitesmoke;
     margin: 5px;
@@ -93,10 +111,26 @@ p{
     transform: scale(1.2);
 }
 
-.darkmodebody{
+.darkmodebody {
     background-color: #212529;
     color: whitesmoke;
+    transition: .5s;
 }
-body{
+
+body {
     background-color: #218B82;
+}
+
+.t1:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+    text-decoration-line: underline;
+    transition: transform .5s
+}
+
+.linker:hover {
+    cursor: pointer;
+    opacity: 85%;
+    text-decoration-line: underline;
+    transition: transform .5s
 }
